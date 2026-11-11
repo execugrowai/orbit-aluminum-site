@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import pages from "@/data/pages.json";
+import ContactForm from "../contact-form";
 
 type Page = { path: string; title: string; description: string; body: string };
 const all = pages as Page[];
@@ -27,5 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params }: Props) {
   const page = findPage((await params).slug);
   if (!page) notFound();
+  if (page.path === "/contact/") {
+    return (
+      <>
+        <div dangerouslySetInnerHTML={{ __html: page.body }} />
+        <ContactForm />
+      </>
+    );
+  }
   return <div dangerouslySetInnerHTML={{ __html: page.body }} />;
 }
