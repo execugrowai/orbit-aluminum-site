@@ -69,3 +69,6 @@ footer ul{list-style:none}footer li{margin-bottom:8px}
 footer a{text-decoration:none}footer a:hover{color:var(--accent)}
 .fb{margin-top:44px;padding-top:22px;border-top:1px solid var(--ink2);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px}
 @media(max-width:860px){.menu{display:none}.split{grid-template-columns:1fr;gap:36px}.fg{grid-template-columns:1fr 1fr}.sub,section{padding:56px 0}form .row{grid-template-columns:1fr}}
+
+.page-img{max-width:1180px;margin:0 auto;padding:0 24px}
+.page-img img{width:100%;height:auto;border-radius:6px;display:block}
