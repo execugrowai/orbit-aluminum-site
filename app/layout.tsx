@@ -3,7 +3,7 @@ import "./globals.css";
 import chrome from "@/data/chrome.json";
 
 export const metadata: Metadata = {
-  title: { default: "Orbit Aluminum", template: "%s | Orbit Aluminum" },
+  title: { default: "Orbit Aluminum", template: "%s" },
   description: "Integrated aluminum coil manufacturer in Aqaba, Jordan.",
 };
 
