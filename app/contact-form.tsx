@@ -53,6 +53,8 @@ export default function ContactForm() {
                 <option>Prepainted steel coil</option>
                 <option>Stucco / embossed</option>
                 <option>Slitting / cut-to-length</option>
+                <option>Outdoor architectural</option>
+                <option>Building products</option>
               </select>
             </div>
             <div>
