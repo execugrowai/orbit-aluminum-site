@@ -99,8 +99,7 @@ export default function ContactForm() {
           </p>
           <h3>Plant</h3>
           <p style={{ color: "var(--steel)" }}>
-            Aqaba, Jordan<br />
-            [Street address]
+            Aqaba, Jordan
           </p>
         </div>
       </div>
