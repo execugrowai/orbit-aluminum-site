@@ -93,6 +93,8 @@ export default function ContactForm() {
           <p style={{ color: "var(--steel)", marginBottom: 20 }}>
             Director of Sales<br />
             North American Head Office<br />
+            5063 North Service Rd. Suite 100<br />
+            Burlington, ON L7L 5H6, Canada<br />
             Phone: <a href="tel:+12896334010">(289) 633-4010</a><br />
             Sales: <a href="mailto:sales@orbitaluminum.com">sales@orbitaluminum.com</a><br />
             General: <a href="mailto:info@orbitaluminum.com">info@orbitaluminum.com</a><br />
