@@ -92,6 +92,7 @@ export default function ContactForm() {
           <h3>Sales</h3>
           <p style={{ color: "var(--steel)", marginBottom: 20 }}>
             Director of Sales<br />
+            North American Head Office<br />
             Phone: <a href="tel:+12896334010">(289) 633-4010</a><br />
             Sales: <a href="mailto:sales@orbitaluminum.com">sales@orbitaluminum.com</a><br />
             General: <a href="mailto:info@orbitaluminum.com">info@orbitaluminum.com</a><br />
