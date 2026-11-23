@@ -76,3 +76,15 @@ footer a{text-decoration:none}footer a:hover{color:var(--accent)}
 .page-img.portrait img{max-width:320px;margin:0 auto}
 
 .brand img{display:block}
+
+.mnav{display:contents}
+.menu-toggle{display:none;list-style:none;cursor:pointer;border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:8px 14px;border-radius:6px;font-size:14px;font-weight:600}
+.menu-toggle::-webkit-details-marker{display:none}
+@media(max-width:860px){
+  .menu-toggle{display:inline-block}
+  .menu{display:none}
+  .mnav[open] .menu{display:flex;flex-direction:column;gap:0;position:absolute;top:72px;left:0;right:0;background:var(--ink);padding:8px 24px 20px;z-index:60;box-shadow:0 12px 24px rgba(0,0,0,.25)}
+  .mnav[open] .menu li{border-top:1px solid var(--ink2)}
+  .mnav[open] .menu a{display:block;padding:14px 0;font-size:16px;opacity:1}
+  header{position:sticky}
+}
